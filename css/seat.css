@@ -1,0 +1,45 @@
+.seat {
+    height: 24px;
+    width: 30px;
+    margin: 6px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-width: 0;
+}
+
+.seat.normal {
+    background-color: #38bdf8;
+}
+
+.seat.premium {
+    background-color: #2563eb;
+}
+
+.seat.selected {
+    background-color: #22c55e;
+}
+
+.seat.occupied {
+    background-color: gray;
+}
+
+.seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.screen{
+    color: #114c97;
+}
+
+.screen-text{
+    margin-top: -10em;
+}
+
+.jo{
+    margin-top: -10em;
+}
+
+.select-l{
+    margin-top: -10em;
+}
